@@ -17,17 +17,14 @@ class BuildWithStageApproval {
         script.println"Hello Bala !!!!!!!!!"
         script.println"Job starting"
         script.println"###########################################"
-        script.stage('Build'){
+        script.stage('build'){
             script.println"compiling..."
         }
-        script.stage('Test'){
+        script.stage('test'){
             script.println"testing..."
         }
-        script.stage('Approval'){
-            script.println"deploying..."
 
-        }
-        script.stage('Deploy'){
+        script.stage('deploy'){
             script.println"deploying..."
         }
         script.stage('release'){
