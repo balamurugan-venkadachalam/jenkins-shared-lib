@@ -24,7 +24,7 @@ class BuildWithStageApproval {
             script.println"testing..."
         }
         script.stage('Approval'){
-            steps: steps
+            steps: steps()
         }
         script.stage('deploy'){
             script.println"deploying..."
