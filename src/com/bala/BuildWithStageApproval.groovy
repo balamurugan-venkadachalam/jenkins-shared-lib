@@ -20,10 +20,6 @@ class BuildWithStageApproval {
         script.stage('build'){
             script.println"compiling..."
         }
-        script.stage('test'){
-            script.println"testing..."
-        }
-
         script.stage('deploy'){
             script.println"deploying..."
         }
