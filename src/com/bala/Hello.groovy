@@ -1,4 +1,4 @@
-
+package com.bala
 class Hello {
     def script
     Hello(script){

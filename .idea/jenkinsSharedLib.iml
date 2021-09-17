@@ -4,8 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/com/bala" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/vars" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vars" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
