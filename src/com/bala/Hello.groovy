@@ -6,6 +6,10 @@ class Hello {
         this.script = script
     }
 
+    static Hello newInstance(def script){
+        return new Hello(script)
+    }
+
     def sayHello(){
         script.println"###########################################"
         script.println"Hello Bala"
